@@ -2,7 +2,7 @@
 这个链接储存了应聘RCEES GIS开发维护工程师的笔试内容，里面包含了所有的相关代码以及最后的可视化成果。
 该笔试要求根据所提供的四只鸟GPS信息，分析规律模拟生成1,000只鸟的飞行轨迹，并生成动态可视化成果。
 ## Getting Started
-1. 复制这个链接到你的git hub或下载整个文件夹
+1. 复制这个链接到github desktop或下载整个文件夹
 2. 打开HTML文件来观赏可视化效果 （存在两个不同的HTML文件，因为使用了不同的Javascript库并且最后可视化成果不同），
 3. 您可以通过运行名为‘preprocessing’的 Jupyter Notebook来了解数据预处理和生成1,000只鸟的过程和思路。
 ## Document Description
