@@ -15,7 +15,7 @@
 * [CARTO VL](https://carto.com/developers/) - 用来构建carto_index.html可视化页面的JS库，专门用于分析地理空间数据并可视化，与最常使用的Mapbox与openLayer相似，里面有封装好的工具，可以使地图与用户的互动更为简单（时间滑块，点击弹出窗口等）
 * [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/) - 主要用于添加底图
 ## Reminder
-1. 如浏览器不能直接打开HTML文件，可用vscode中的live servre来打开
+1. 如浏览器不能直接加载mappa_index.html文件，是因为需要创建本地服务器，可下载整个文件夹并用vscode中的live servre打开
 2. 由于没有找到每个人都有权限的存储数据的服务器，并且CARTO VL不支持在使用本地数据，因此我将Geojson文件上传到了CARTO VL自带的数据库中，但其有效期只有14天，如果您不能正确加载可视化页面可能是数据失效的原因。如有此情况发生，请告知我，我会提供您新的用户名和API Key。
 3. carto_index.html可视化成果使用点来表示运动轨迹，点的大小与鸟的飞行速度有关，并附加了时间轴、点击出现鸟类信息的弹窗等交互效果。由于鸟类飞行较为密集彼此轨迹会有重叠，popup window在缩放比例较小时可能会出现延迟，您可以将地图比例尺调大来体验该功能。
 4. mappa_index.html可视化成果使用线来追踪鸟类迁徙，但到目前为止我的轨迹与鸟的实时飞行状态并不能做到即时显示，会有延迟，暂时未找到更好的解决方法。
